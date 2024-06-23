@@ -1,5 +1,8 @@
 # Anastasios Tatarakis CV Mk II
 
+![image](https://github.com/Anastasios3/Anastasios-Tatarakis-CV-Mk-II/assets/117446378/bbc391c9-eac8-4a9c-a49e-56666eca8575)
+
+
 ## Overview
 
 Anastasios Tatarakis CV Mk II is a personal portfolio and CV website designed to showcase my skills and experiences in web development. The website features a clean, modern aesthetic with sections dedicated to work experience, education, and specializations. It is built using HTML, CSS (with Sass for advanced styling), and JavaScript. The site is fully responsive, ensuring an optimal viewing experience on all devices.
