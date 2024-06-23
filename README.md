@@ -1,6 +1,6 @@
 # Anastasios Tatarakis CV Mk II
 
-![image](https://github.com/Anastasios3/Anastasios-Tatarakis-CV-Mk-II/assets/117446378/bbc391c9-eac8-4a9c-a49e-56666eca8575)
+![image](https://github.com/Anastasios3/Anastasios-Tatarakis-CV-Mk-II/assets/117446378/ad8cc1b5-c1ec-40fc-9caa-92be7ea37c62)
 
 
 ## Overview
