@@ -16,6 +16,8 @@ Anastasios Tatarakis CV Mk II is a personal portfolio and CV website designed to
 
 ## Technologies Used
 
+
+
 - **HTML5**: Markup language for structuring the content.
 - **CSS3**: Styling language for designing the content.
 - **Sass**: CSS preprocessor for more advanced and maintainable styling.
