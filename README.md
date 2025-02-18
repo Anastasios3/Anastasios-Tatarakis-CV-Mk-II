@@ -1,4 +1,4 @@
-Working on a new website!
+Working on a new website! --- It will be ready very soon!
 
 # Anastasios Tatarakis CV Mk II --- Needs an update!
 
