@@ -1,6 +1,4 @@
-Working on a new website! --- It will be ready very soon!
-
-# Anastasios Tatarakis CV Mk II --- Needs an update!
+# Anastasios Tatarakis CV Mk II
 
 ![image](https://github.com/Anastasios3/Anastasios-Tatarakis-CV-Mk-II/assets/117446378/3f3ff23e-5cda-4744-b411-b06ef5a05a8b)
 
