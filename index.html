@@ -1,140 +1,428 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-    <title>Anastasios Tatarakis</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-</head>
-<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anastasios Tatarakis — Under Construction</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-    <div id="wrapper">
-        <header id="header">
-            
-            <div class="content">
-                <div class="inner">
-                    <h1>Anastasios Tatarakis</h1>
-                    <p>Bridging Technology and Creativity in Full Stack Web Development</p>
-                </div>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#intro">Intro</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#about">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+      :root {
+        --bg: #0a0a0a;
+        --card: #141414;
+        --border: #2a2a2a;
+        --text-primary: #ffffff;
+        --text-secondary: #888888;
+        --text-muted: #555555;
+        --accent: #ffffff;
+      }
 
-        <div id="main">
-            <article id="intro">
-                <h2 class="major">Intro</h2>
-                <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-				<p>I am a web developer with a passion for creating and learning. My journey started with a Bachelor’s degree in Accounting and Finance from H.M.U. of Heraklion. This laid the foundation for my analytical skills. I then expanded my horizons by specializing in Investment Management at the University of Geneva, giving me a deep understanding of financial systems.</a>.</p>
-				<p>Driven by my interest in technology, I pursued an Associate's degree in Software Engineering and Web Development from the Public Vocational Institute of Rethymno. To further enhance my skills, I completed the IBM Full Stack Software Developer Professional Certificate. This combination of education has equipped me with a unique blend of financial insight and technical expertise, enabling me to develop innovative web solutions.</p>
-				<P>Looking ahead, I am thrilled about the prospect of moving to Copenhagen, Denmark to pursue my dreams in the tech industry. I aspire to join a forward-thinking team where I can contribute to cutting-edge projects and continue to grow as a developer. My goal is to create innovative solutions that make a difference and to be part of a dynamic and progressive environment.</P>
-				<p><b>Mandatory Military - Active Duty Service has been Completed <br> C2 Proficiency - Certificate of Proficiency in English (CPE)</b></p>            
-			</article>
+      body {
+        font-family: "SF Mono", "Monaco", "Inconsolata", "Fira Code", monospace;
+        background: var(--bg);
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        color: var(--text-primary);
+        position: relative;
+        overflow-x: hidden;
+      }
 
-			<article id="work">
-				<h2 class="major">Work Experience</h2>
-				<span class="image main"><img src="images/workexp-pic.jpg" alt="" /></span>
-				<p><b>Full-Stack Web Developer, NordInsight, Copenhagen, Denmark (July 2024 - Present)</b> <br> <i>Initiating the recreation and enhancement of the notification system, improving alert efficiency for healthcare professionals. Developing and maintaining NordInsight's implant library platform.</i></p>
-				<p><b>Full-Stack Web Developer, Graphics Designer, Freelancer / Contractor (April 2023 - Present)</b> <br> <i>Developing web applications and websites, ensuring robust functionality & user-friendly experiences. Conducting SEO optimization to enhance visibility & drive traffic. Designing various graphics, including menus, banners & posters.</i></p>
-				<p><b>IT Specialist, Creta Dental, Rethymno, Greece (October 2023 - July 2024)</b> <br> <i>Management of all computer systems within the clinic, including patient DB. Development & implementation of mostly M.E.R.N. full stack web applications.</i></p>
-				<p><b>Bar Manager, Bonobo Bar & more, Rethymno, Greece (April 2018 - October 2023)</b> <br> <i>Managed daily operations, overseeing inventory and customer service. Built and led a diverse team, ensuring smooth workflow and high customer satisfaction. Adapted to high-pressure situations, ensuring efficient workflow.</i></p>
-				<p><b>Head Bartender, Plastelina, Heraklion, Greece (November 2016 - March 2018)</b> <br> <i>Built and led a diverse team, ensuring smooth workflow and high customer satisfaction.</i></p>
-				<p><b>Head Barista, EXpresso specialty coffee, Heraklion, Greece (January 2016 - October 2016)</b> <br> <i>Acquired deeper knowledge of the hospitality industry.</i></p>
-				<p><b>Barista, Indigo, Heraklion, Greece (March 2013 - March 2016)</b> <br> <i>Adapted to high-pressure situations, ensuring efficient workflow.</i></p>
-			
-				<h2 class="major">Education</h2>
-				<span class="image main"><img src="images/Studies-pic.jpg" alt="" /></span>
-				<p><b>Associate's degree, Software Engineering / Web Development</b> <br> <i><a href="https://www.iekreth.gr/" target="_blank">P. V. I. of Rethymno</a>, Rethymno, Crete (September 2022 - June 2024)</i></p>
-				<p><b>Bachelor's Degree, Department of Accounting and Finance</b> <br> <i><a href="https://hmu.gr/" target="_blank">H. M. U. of Heraklion</a>, Heraklion, Crete (October 2012 - May 2018)</i></p>
-			
-				<h2 class="major">Certifications</h2>
-				<span class="image main"><img src="images/Specializations-pic.jpg" alt="" /></span>
-				<p><b><a href="https://coursera.org/share/afefba2ac7575e30f24e7a47c099dc86" target="_blank">Full Stack Software Developer</a></b> <br> <i>I.B.M. (June 2023 - November 2023)</i></p>
-				<p><b><a href="https://coursera.org/share/715ff8915a8d4a38d30f440f516a6014" target="_blank">Investment Management Specialization</a></b> <br> <i>University of Geneva (December 2020 - July 2021)</i></p>
-			</article>
-			
+      /* Subtle grid pattern */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(
+            rgba(255, 255, 255, 0.01) 1px,
+            transparent 1px
+          ),
+          linear-gradient(90deg, rgba(255, 255, 255, 0.01) 1px, transparent 1px);
+        background-size: 50px 50px;
+        pointer-events: none;
+        z-index: 1;
+      }
 
-			<article id="about">
-				<h2 class="major">Projects</h2>
-				<span class="image main"><img src="images/CHEESE-pic.jpg" alt="" /></span>
-				<p><b><a href="https://github.com/Anastasios3/Task-Managment-App-Mk-I--lightweight" target="_blank">Task Management App Mk--I</a></b> <br> <i>Task Management App Mk I is a comprehensive tool designed to help professionals & hobbyists organize their tasks efficiently. Built using Flask and SQLite, this application features user authentication, task creation, prioritization, and completion tracking. Users can easily create, update, delete, and sort tasks, as well as filter them by priority and completion status. The intuitive sidebar navigation and responsive design enhance the user experience, making it an essential tool for effective task management.</i></p>
-				<span class="image main"><img src="images/CARE-pic.jpg" alt="" /></span>
-				<p><b><a href="https://github.com/Anastasios3/ProShop--Mk-I" target="_blank">ProShop Mk--I</a></b> <br> <i>ProShop Mk I is a comprehensive E-commerce application built using the MERN stack (MongoDB, Express.js, React, Node.js). The application features a responsive and user-friendly interface, allowing users to browse, search, and view products with ease. The backend is designed to efficiently manage product data and support the frontend operations through a RESTful API. Key features include product listing, individual product cards, and a rotating carousel showcasing top products. Future enhancements include user authentication, a shopping cart, payment integration, product reviews, and an admin dashboard for managing products, users, and orders.</i></p>
-				<span class="image main"><img src="images/ASSET-pic.jpg" alt="" /></span>
-				<p><b><a href="https://github.com/Anastasios3/Anastasios-Tatarakis-CV-Mk-II" target="_blank">Anastasios Tatarakis CV Mk--II</a></b> <br> <i>This project showcases my personal portfolio and CV, designed to highlight my skills and experiences in web development. The application is structured with a clean, modern aesthetic, featuring sections for work experience, education, and specializations. Built with a combination of HTML, CSS (including Sass for advanced styling), and JavaScript, it includes various assets like fonts, videos, and images to enhance the presentation. The site is fully responsive, ensuring an optimal viewing experience on all devices. Key functionalities include smooth animations, interactive elements, and an easy-to-navigate layout, demonstrating my proficiency in front-end development.</i></p>
-				<span class="image main"><img src="images/Wordpress-pic.jpg" alt="" /></span>
-				<p><b><a href="https://www.cretadental.com" target="_blank">Custom WordPress Development</a></b> <br> <i>This project represents a sophisticated implementation of a WordPress site with custom PHP enhancements, tailored for a dental clinic. It integrates advanced features such as appointment scheduling, patient management systems, and detailed service pages. Custom themes and plugins were developed to meet specific client needs, while ensuring a responsive design for optimal user experience. The site also includes an integrated blog, SEO optimizations, and multi-language support to cater to a diverse client base. This project exemplifies the use of WordPress to create a highly functional and user-friendly web platform.</i></p>
-			</article>
+      .container {
+        position: relative;
+        z-index: 2;
+        max-width: 800px;
+        width: 100%;
+        animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+      }
 
-			<article id="contact">
-				<h2 class="major">Contact</h2>
-				<div class="contact-info">
-					<h3>Contact Details</h3>
-					<p><b>Name:</b> Anastasios Tatarakis</p>
-					<p><b>Email:</b> <a href="mailto:tatarakis.a@gmail.com">tatarakis.a@gmail.com</a></p>
-					<p><b>Phone:</b> +30 6972224868</p>
-					<ul class="actions">
-						<li><a href="assets/documents/Anastasios-Tatarakis-CV.pdf" class="button" onclick="downloadAndOpenCV(event)">Download CV</a></li>
-					</ul>
-				</div>
-				<h2>Social Media Links</h2>
-				<p>Connect with me on social media:</p>
-				<ul class="actions">
-					<li><a href="https://www.linkedin.com/in/anastasios-tatarakis-8b6a6828a/" target="_blank" class="button">LinkedIn</a></li>
-					<li><a href="https://github.com/Anastasios3" target="_blank" class="button">GitHub</a></li>
-					<li><a href="https://stackoverflow.com/users/20258850/anastasios3" target="_blank" class="button">StackOverflow</a></li>
-				</ul>
-			</article>
-			
-			<script>
-			function downloadAndOpenCV(event) {
-				event.preventDefault(); // Prevent the default action of the link
-			
-				const cvUrl = 'assets/documents/Anastasios-Tatarakis-CV.pdf';
-			
-				// Create a temporary link element for downloading the file
-				const downloadLink = document.createElement('a');
-				downloadLink.href = cvUrl;
-				downloadLink.download = 'Anastasios_Tatarakis_CV.pdf';
-				document.body.appendChild(downloadLink);
-				downloadLink.click();
-				document.body.removeChild(downloadLink);
-			
-				// Open the CV in a new tab
-				window.open(cvUrl, '_blank');
-			}
-			</script>
-			
-			
-			
-			
-			
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .header {
+        margin-bottom: 80px;
+        position: relative;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+      }
+
+      .subtitle {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-weight: 400;
+      }
+
+      .construction-bar {
+        margin: 60px 0;
+        padding: 20px 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        position: relative;
+      }
+
+      .construction-text {
+        font-size: 0.8rem;
+        letter-spacing: 0.3em;
+        text-transform: uppercase;
+        color: var(--text-secondary);
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .blink {
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        background: var(--text-secondary);
+        border-radius: 50%;
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.3;
+        }
+      }
+
+      .content-grid {
+        display: grid;
+        gap: 60px;
+      }
+
+      .section {
+        position: relative;
+      }
+
+      .section-title {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        color: var(--text-secondary);
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+
+      .section-title::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
+
+      .intro {
+        font-size: 0.95rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        margin-bottom: 40px;
+        max-width: 600px;
+      }
+
+      .contact-grid {
+        display: grid;
+        gap: 20px;
+        margin-bottom: 40px;
+      }
+
+      .contact-item {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        gap: 20px;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--border);
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .contact-item:last-child {
+        border-bottom: none;
+      }
+
+      .contact-item:hover {
+        padding-left: 10px;
+      }
+
+      .contact-label {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-muted);
+      }
+
+      .contact-value {
+        font-size: 0.95rem;
+        color: var(--text-primary);
+      }
+
+      .contact-value a {
+        color: var(--text-primary);
+        text-decoration: none;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+
+      .contact-value a::after {
+        content: "";
+        position: absolute;
+        bottom: -2px;
+        left: 0;
+        width: 0;
+        height: 1px;
+        background: var(--accent);
+        transition: width 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .contact-value a:hover::after {
+        width: 100%;
+      }
+
+      .location-note {
+        margin-top: 40px;
+        padding: 25px;
+        border: 1px solid var(--border);
+        font-size: 0.85rem;
+        line-height: 1.8;
+        color: var(--text-secondary);
+        position: relative;
+        background: var(--card);
+      }
+
+      .social-links {
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+      }
+
+      .social-link {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: var(--text-secondary);
+        text-decoration: none;
+        padding: 12px 0;
+        position: relative;
+        transition: color 0.3s ease;
+      }
+
+      .social-link::before {
+        content: "→";
+        position: absolute;
+        left: -20px;
+        opacity: 0;
+        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .social-link:hover {
+        color: var(--text-primary);
+      }
+
+      .social-link:hover::before {
+        left: -15px;
+        opacity: 1;
+      }
+
+      .bottom-marker {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        z-index: 10;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 0 10px;
+        }
+
+        .construction-bar {
+          margin: 40px 0;
+        }
+
+        .contact-item {
+          grid-template-columns: 1fr;
+          gap: 8px;
+        }
+
+        .contact-label {
+          color: var(--text-secondary);
+        }
+
+        .social-links {
+          flex-direction: column;
+          gap: 15px;
+        }
+
+        .social-link {
+          padding-left: 20px;
+        }
+
+        .social-link::before {
+          left: 0;
+          opacity: 1;
+        }
+
+        .social-link:hover::before {
+          left: 0;
+        }
+
+        .bottom-marker {
+          display: none;
+        }
+      }
+
+      /* Neo-brutalist accent elements */
+      .accent-block {
+        position: absolute;
+        width: 4px;
+        height: 40px;
+        background: var(--accent);
+        left: -20px;
+        top: 10px;
+        opacity: 0.1;
+      }
+
+      @media (max-width: 768px) {
+        .accent-block {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Anastasios Tatarakis</h1>
+        <p class="subtitle">DTU — Technical University of Denmark</p>
+      </header>
+
+      <div class="construction-bar">
+        <div class="construction-text">
+          <span class="blink"></span>
+          <span>Site Under Reconstruction</span>
         </div>
+      </div>
 
-        <footer id="footer">
-            <p>&copy; Anastasios Tatarakis: A personal <a href="assets/documents/Anastasios-Tatarakis-CV.pdf">CV</a> / Portfolio.</p>
-        </footer>
+      <main class="content-grid">
+        <section class="section">
+          <div class="accent-block"></div>
+          <h2 class="section-title">Connect</h2>
+
+          <p class="intro">
+            I'm always excited to discuss new opportunities, innovative
+            projects, or simply chat about the latest in tech. Whether you're
+            looking for a passionate developer to join your team, need
+            assistance with a web project, or want to collaborate on something
+            exciting, I'd love to hear from you.
+          </p>
+
+          <div class="contact-grid">
+            <div class="contact-item">
+              <span class="contact-label">Email</span>
+              <span class="contact-value">
+                <a href="mailto:tatarakis.a@gmail.com">tatarakis.a@gmail.com</a>
+              </span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Phone GR</span>
+              <span class="contact-value">+30 697 222 4868</span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Phone DK</span>
+              <span class="contact-value">+45 71 34 11 27</span>
+            </div>
+
+            <div class="contact-item">
+              <span class="contact-label">Location</span>
+              <span class="contact-value"
+                >Bispevej, 2400 København, Denmark</span
+              >
+            </div>
+          </div>
+
+          <div class="location-note">
+            Based in Copenhagen, I'm open to both local and remote
+            opportunities. Don't hesitate to reach out, even if it's just for a
+            friendly chat about technology or potential collaborations.
+          </div>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Professional Networks</h2>
+          <nav class="social-links">
+            <a
+              href="https://www.linkedin.com/in/anastasios-tatarakis-8b6a6828a"
+              target="_blank"
+              class="social-link"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/Anastasios3"
+              target="_blank"
+              class="social-link"
+              >GitHub</a
+            >
+            <a
+              href="https://stackoverflow.com/users/20258850/anastasios3"
+              target="_blank"
+              class="social-link"
+              >Stack Overflow</a
+            >
+          </nav>
+        </section>
+      </main>
     </div>
 
-    <div id="bg"></div>
-
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-	<video id="bg-video" autoplay loop muted>
-		<source src="assets/videos/AnastasiosCV_Animation.mp4" type="video/mp4">
-		Your browser does not support the video tag.
-	</video>
-	
-</body>
+    <div class="bottom-marker">2025 © AT</div>
+  </body>
 </html>
